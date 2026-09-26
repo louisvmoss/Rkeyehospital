@@ -42,7 +42,7 @@ $retina_faqs = rkl_retina_faqs();
 			</div>
 
 			<div class="rkl-hero-photo">
-				<img src="<?php echo rkl_get_landing_image( 'retina_hero', 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=700&h=560&fit=crop' ); ?>" width="700" height="560" loading="eager" fetchpriority="high" alt="Retina evaluation at an eye care center in Indore">
+				<img src="<?php echo rkl_get_page_image( 'retina_hero', 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=700&h=560&fit=crop' ); ?>" width="700" height="560" loading="eager" fetchpriority="high" alt="Retina evaluation at an eye care center in Indore">
 				<div class="rkl-hero-badge">Urgent retina evaluation in Indore</div>
 			</div>
 		</div>
@@ -75,7 +75,7 @@ $retina_faqs = rkl_retina_faqs();
 					<p>A retinal tear is not the same as a retinal detachment. A tear or hole may allow fluid to pass underneath the retina and can progress to detachment. When a suitable tear is found before significant detachment develops, laser photocoagulation or cryopexy may sometimes seal the tear and reduce the risk of progression.</p>
 				</div>
 				<div class="rkl-content-image">
-					<img src="<?php echo rkl_get_landing_image( 'retina_condition', 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&h=460&fit=crop' ); ?>" width="600" height="460" loading="lazy" alt="Retina examination and retinal health consultation">
+					<img src="<?php echo rkl_get_page_image( 'retina_condition', 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&h=460&fit=crop' ); ?>" width="600" height="460" loading="lazy" alt="Retina examination and retinal health consultation">
 				</div>
 			</div>
 			<div class="rkl-content-grid rkl-retina-types-grid">
@@ -125,7 +125,7 @@ $retina_faqs = rkl_retina_faqs();
 			<p class="rkl-intro">The key examination is a dilated retinal examination. The retina specialist assesses the location and extent of any retinal tear or detachment and whether the macula is involved.</p>
 			<div class="rkl-content-grid">
 				<div class="rkl-content-image">
-					<img src="<?php echo rkl_get_landing_image( 'retina_diagnosis', 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&h=460&fit=crop' ); ?>" width="600" height="460" loading="lazy" alt="Retinal diagnostic examination and imaging">
+					<img src="<?php echo rkl_get_page_image( 'retina_diagnosis', 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&h=460&fit=crop' ); ?>" width="600" height="460" loading="lazy" alt="Retinal diagnostic examination and imaging">
 				</div>
 				<div class="rkl-card-grid rkl-card-grid--stacked">
 					<div class="rkl-card"><div class="rkl-card-icon" aria-hidden="true">◉</div><h3>Dilated fundus examination</h3><p>Inspects the peripheral retina and helps identify retinal breaks.</p></div>
@@ -187,7 +187,7 @@ $retina_faqs = rkl_retina_faqs();
 				</div>
 				<div>
 					<div class="rkl-content-image">
-						<img src="<?php echo rkl_get_landing_image( 'retina_recovery', 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=460&fit=crop' ); ?>" width="600" height="460" loading="lazy" alt="Post-operative retina care and follow-up">
+						<img src="<?php echo rkl_get_page_image( 'retina_recovery', 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=460&fit=crop' ); ?>" width="600" height="460" loading="lazy" alt="Post-operative retina care and follow-up">
 					</div>
 					<div class="rkl-tip-box">
 						<div class="rkl-tip-label">Gas bubble safety</div>
