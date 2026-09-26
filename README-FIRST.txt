@@ -27,7 +27,8 @@ STEP 2: PAGE BANAO
   1. Pages > Add New
   2. Title likho (jaise: LASIK Surgery in Indore)
   3. Right side "Page Attributes" > "Template" dropdown mein select karo:
-     RK Eye LASIK Landing ya RK Eye Retinal Detachment Guide
+     RK Eye LASIK Landing, RK Eye Retinal Detachment Guide
+     ya RK Eye Cataract Surgery Guide
   4. "Publish"
   5. Page kholo aur check karo — theme ka header/footer waise hi
      rahega, beech mein selected content + form dikhega
@@ -39,15 +40,28 @@ RETINAL DETACHMENT PAGE:
     vitrectomy/gas-bubble safety, recovery guide aur visible FAQs included.
   • Retina page ka form automatically retina-specific options dikhata hai.
 
-IMAGES ADMIN SE CHANGE KARNA:
-  WordPress Admin > RK Forms > Landing Images
-  Yahan se Media Library ke through ye images change kar sakte ho:
-    - LASIK hero + LASIK introduction image
-    - Retina hero image
-    - Retina condition, diagnosis aur recovery images
-  Image replace karne ke baad "Save Landing Images" click karo.
-  Agar koi image set nahi ki gayi ho to template ka lightweight fallback
-  image use hota rahega.
+CATARACT SURGERY PAGE:
+  • Suggested title: Cataract Surgery in Indore
+  • Suggested slug: /cataract-surgery-in-indore/
+  • Template dropdown me select karo: "RK Eye Cataract Surgery Guide"
+  • Symptoms, IOL options (monofocal/toric/multifocal-EDOF cards),
+    evaluation, surgery, recovery, doctor team, related services,
+    visible FAQs + final CTA band included.
+  • Cataract page ka form alag fields dikhata hai: patient name, mobile,
+    age, city, main concern, which eye + optional report upload
+    (PDF/JPG/PNG, max 5 MB). Report lead ke sath Media Library me
+    attachment ki tarah save hoti hai.
+  • "Urgent symptom" select karne par form me urgent-care notice dikhta hai.
+
+IMAGES CHANGE KARNA (PAGE EDIT SCREEN):
+  Kisi bhi Page ko Edit karo > neeche "RK Landing Page Images" box me
+  us page ki images Media Library se set karo:
+    - Cataract: hero + lens illustration + evaluation image
+    - LASIK: hero + introduction image
+    - Retina: hero + condition + diagnosis + recovery images
+  Koi field khaali chhodo to global default ya template ki built-in
+  image use hoti rahegi.
+  Global defaults: WordPress Admin > RK Forms > Landing Images
 
 LEADS KAHAN DEKHEIN?
   WordPress Admin > RK Forms   (left sidebar)

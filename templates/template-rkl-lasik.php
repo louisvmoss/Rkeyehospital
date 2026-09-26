@@ -47,7 +47,7 @@ get_header();
 			</div>
 
 			<div class="rkl-hero-photo">
-				<img src="<?php echo rkl_get_landing_image( 'lasik_hero', 'https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?w=700&h=560&fit=crop' ); ?>" width="700" height="560" loading="eager" fetchpriority="high" alt="LASIK procedure at RK Eye &amp; Retina Center, Indore">
+				<img src="<?php echo rkl_get_page_image( 'lasik_hero', 'https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?w=700&h=560&fit=crop' ); ?>" width="700" height="560" loading="eager" fetchpriority="high" alt="LASIK procedure at RK Eye &amp; Retina Center, Indore">
 				<div class="rkl-hero-badge"><i class="fa-solid fa-check-circle" aria-hidden="true"></i> Personalised suitability-first evaluation</div>
 			</div>
 		</div>
@@ -68,7 +68,7 @@ get_header();
 					</div>
 				</div>
 				<div class="rkl-content-image">
-					<img src="<?php echo rkl_get_landing_image( 'lasik_intro', 'https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&h=460&fit=crop' ); ?>" width="600" height="460" loading="lazy" alt="Personalised LASIK procedure in progress at RK Eye &amp; Retina Center">
+					<img src="<?php echo rkl_get_page_image( 'lasik_intro', 'https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&h=460&fit=crop' ); ?>" width="600" height="460" loading="lazy" alt="Personalised LASIK procedure in progress at RK Eye &amp; Retina Center">
 				</div>
 			</div>
 		</div>

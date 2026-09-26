@@ -804,3 +804,97 @@ body.rkl-title-hidden .elementor-heading-title.page-title {
   .rkl-hero-buttons, .rkl-cta-buttons { flex-direction: column; align-items: stretch; }
   .rkl-hero-buttons .rkl-btn, .rkl-cta-buttons .rkl-btn { justify-content: center; }
 }
+
+/* ---------------------------------------------------------------------- */
+/* Cataract guide additions                                               */
+/* ---------------------------------------------------------------------- */
+.rkl-crumb-text { color: var(--rk-body); }
+.rkl-hero-list { margin: 0 0 26px; max-width: 560px; }
+.rkl-cataract-hero .rkl-warning-box { margin-top: 22px; }
+.rkl-cataract-hero .rkl-hero-photo { box-shadow: 0 25px 60px rgba(10, 37, 64, 0.14); }
+
+/* IOL comparison cards — neutral styling, no quality-tier cues */
+.rkl-iol-card { border-top: 4px solid var(--rk-blue); }
+.rkl-iol-card .rkl-card-icon { background: var(--rk-blue-tint); color: var(--rk-blue-dark); }
+
+.rkl-disclaimer {
+  font-size: 12.5px !important;
+  color: #8a97a8 !important;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+/* Doctor cards (initials avatar — real photos stay on profile pages) */
+.rkl-doctor-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--rk-navy);
+  color: #fff;
+  font-family: var(--rk-font-heading);
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+.rkl-doctor-card p { margin-bottom: 14px; }
+.rkl-doctor-link {
+  color: var(--rk-red-dark);
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+}
+.rkl-doctor-link:hover { color: var(--rk-red); }
+
+/* Related services */
+.rkl-card-grid--4 { grid-template-columns: repeat(4, 1fr); }
+.rkl-related-card { text-decoration: none; display: flex; flex-direction: column; }
+.rkl-related-card h3 { font-size: 16.5px; }
+.rkl-related-card p { flex: 1; margin-bottom: 14px; }
+.rkl-related-link { color: var(--rk-red-dark); font-weight: 600; font-size: 13.5px; }
+.rkl-related-card:hover .rkl-related-link { color: var(--rk-red); }
+
+/* CTA band lead paragraph (no-heading variant) */
+.rkl-cta-lead {
+  font-size: 16.5px !important;
+  color: rgba(255,255,255,0.92) !important;
+  max-width: 780px !important;
+}
+
+/* Form additions: file upload + urgent notice + consent link */
+.rkl-file-input { padding: 10px 14px; background: #fff; }
+.rkl-file-input::file-selector-button {
+  font-family: var(--rk-font-heading);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--rk-navy);
+  background: var(--rk-blue-tint);
+  border: 1px solid #b9e3f2;
+  border-radius: 8px;
+  padding: 7px 14px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.rkl-file-hint { font-size: 12px; color: #8a97a8; margin: 6px 0 0; }
+.rkl-urgent-notice {
+  background: var(--rk-pink-tint);
+  border: 1px solid #f5c2cb;
+  border-left: 4px solid var(--rk-red);
+  border-radius: 0 10px 10px 0;
+  padding: 14px 16px;
+  font-size: 13.5px;
+  color: var(--rk-text);
+}
+.rkl-urgent-notice[hidden] { display: none; }
+.rkl-urgent-notice a { color: var(--rk-red-dark); font-weight: 700; }
+.rkl-consent label a { color: var(--rk-red-dark); }
+
+@media (max-width: 968px) {
+  .rkl-card-grid--4 { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 600px) {
+  .rkl-card-grid--4 { grid-template-columns: 1fr; }
+}
